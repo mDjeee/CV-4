@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    height: 1400px;
+    margin: auto;
+    box-shadow: 4px 4px 10px 0px rgba(34, 60, 80, 0.2);
+}
+.about {
+    display: flex;
+    width: 1400px;
+}
+.left {
+    width: 600px;
+    height: 1400px;
+    background-color: #1d2327;
+    position: relative;
+}
+.right {
+    color: #504d23;
+    position: relative;
+    width: 800px;
+    background-color: #161616;
+}
+.hero{
+    position: absolute;
+    bottom: 0;
+    right: -400px;
+}
+.aboutme {
+    margin-left: 20px;
+    margin-top: 400px;
+}
+.socials {
+    position: absolute;
+    bottom: 500px;
+    right: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.social {
+    filter: invert(30%);
+    width: 40px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.leftmargin {
+    margin-left: 80px;
+}
+.education {
+    margin-top: 300px;
+}
+.education h2, .education h3, .education p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.theme{
+    color: #504d23;
+    text-transform: uppercase;
+}
+.education p {
+    font-weight: 500;
+    color: red;
+    filter: invert(50%);
+}
+.major h2{
+    margin-top: 40px;
+    font-weight: 400;
+    color: red;
+    filter: invert(50%);
+}
+.education h3 {
+    color: red;
+    filter: invert(50%);
+}
+.skills {
+    margin-top: 50px;
+}
+.skill {
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+}
+.skill img {
+    width: 40px;
+    filter: invert(50%)
+}
+a {
+    text-decoration: none;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    color: red;
+    filter: invert(50%);
+    font-size: 24px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.contact img {
+    width: 30px;
+    margin-right: 10px;
+}
+.rsschool {
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+}
+.rsschool img {
+    filter: invert(50%);
+}
